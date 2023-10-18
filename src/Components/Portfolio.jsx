@@ -1,9 +1,9 @@
 import React from 'react'
 import netflix from "../assets/portfolio/netflix.png";
-import amazon from "../assets/portfolio/amazon.png";
+import amazon from "../assets/portfolio/amazon1.png";
 import applereact from "../assets/portfolio/applereact.png";
-import app from "../assets/portfolio/app.jpg";
-import abe from "../assets/portfolio/abe.jpeg";
+// import app from "../assets/portfolio/app.jpg";
+// import abe from "../assets/portfolio/abe.jpeg";
 
 function Portfolio() {
 
@@ -16,20 +16,22 @@ function Portfolio() {
         {
             id:2,
             src:amazon,
+            href:"https://frontend-clone-8caa5.web.app/"
         },
         {
             id:3,
             src:applereact,
             href:"https://apple-react-clone-62818.web.app/"
         },
-        {
-            id:4,
-            src:app
-        },
-        {
-            id:5,
-            src:abe
-        },
+        // {
+        //     id:4,
+        //     src:app,
+            
+        // },
+        // {
+        //     id:5,
+        //     src:abe
+        // },
     ]
 
   return (
